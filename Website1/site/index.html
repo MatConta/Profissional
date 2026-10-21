@@ -1,0 +1,376 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Matheus Trombaco · Sites para pequenos negócios em Londrina</title>
+<meta name="description" content="Matheus Trombaco faz sites para pequenos negócios de Londrina: uma página clara, rápida no celular e publicada sem mensalidade de hospedagem.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+<script>document.documentElement.classList.add('js')</script>
+</head>
+<body>
+
+<header class="bar">
+  <span class="bar-spacer" aria-hidden="true"></span>
+  <a class="wordmark" href="#topo">Matheus Trombaco</a>
+  <a class="bar-link" href="#contato">Contato</a>
+</header>
+
+<main id="topo">
+
+  <!-- Hero: the name, then the stack of folders. The front folder is the quote itself. -->
+  <section class="hero" aria-labelledby="titulo">
+    <h1 id="titulo" class="hero-title" data-rise>Matheus Trombaco</h1>
+    <p class="hero-lead" data-rise>Faço sites para pequenos negócios de Londrina: uma página clara, rápida no celular e publicada sem mensalidade de hospedagem.</p>
+  </section>
+
+  <nav class="folders" aria-label="Seções">
+    <a class="folder f-sobre" href="#sobre"><span class="tab">Sobre mim</span></a>
+    <a class="folder f-como" href="#como"><span class="tab">Como funciona</span></a>
+    <a class="folder f-precos" href="#precos"><span class="tab">Preços</span></a>
+    <a class="folder f-estudos" href="#estudos"><span class="tab">Estudos</span></a>
+  </nav>
+
+  <!-- Front folder: the live quote -->
+  <section id="orcamento" class="front" aria-labelledby="orcamento-titulo">
+    <span class="tab front-tab" aria-hidden="true">Seu orçamento</span>
+    <div class="front-top">
+      <a class="btn btn-terra" href="#contato">Pedir orçamento</a>
+      <p class="front-note">Ou teste abaixo: escreva o nome do seu negócio e veja a primeira tela do seu site.</p>
+    </div>
+
+    <div class="plate">
+      <div class="plate-pic" data-rise>
+        <div class="mock" id="mock" data-ui>
+          <div class="mock-bar">
+            <span class="mock-brand" id="mock-brand">Padaria da Rosa</span>
+            <span class="mock-links">Cardápio <span>Horários</span> <span>Onde fica</span></span>
+          </div>
+          <div class="mock-body">
+            <p class="mock-name" id="mock-name">Padaria da Rosa</p>
+            <p class="mock-tag" id="mock-tag">Pão francês saindo às 6h, bolo de fubá às 15h.</p>
+            <ul class="mock-list" id="mock-list">
+              <li><span>Pão francês</span><span>R$ 0,90</span></li>
+              <li><span>Bolo de fubá</span><span>R$ 18,00</span></li>
+              <li><span>Café coado</span><span>R$ 5,00</span></li>
+            </ul>
+            <p class="mock-where" id="mock-where">Centro, Londrina · Seg a sáb, 6h às 19h</p>
+            <span class="mock-cta">Encomendar no WhatsApp</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="plate-text">
+        <div class="kinds" role="radiogroup" aria-label="Tipo de negócio">
+          <button type="button" role="radio" aria-checked="true" data-kind="padaria">Padaria</button>
+          <button type="button" role="radio" aria-checked="false" data-kind="oficina">Oficina</button>
+          <button type="button" role="radio" aria-checked="false" data-kind="salao">Salão</button>
+          <button type="button" role="radio" aria-checked="false" data-kind="restaurante">Restaurante</button>
+        </div>
+
+        <div class="plate-mid">
+          <h2 id="orcamento-titulo" class="h-sec">Veja seu site antes</h2>
+          <label class="field-label" for="nome-negocio">Nome do seu negócio</label>
+          <input class="field" id="nome-negocio" type="text" value="Padaria da Rosa" maxlength="32" autocomplete="organization">
+          <label class="field-label" for="bairro">Bairro</label>
+          <select class="field" id="bairro">
+            <option>Centro</option>
+            <option>Gleba Palhano</option>
+            <option>Jardim Shangri-lá</option>
+            <option>Cinco Conjuntos</option>
+            <option>Vila Nova</option>
+            <option>Jardim Bandeirantes</option>
+            <option>Cambé</option>
+          </select>
+          <p class="quote-line" id="quote-line" aria-live="polite">Página única com cardápio, horários, mapa e WhatsApp: <strong>R$ 450</strong>, no ar em cerca de duas semanas.</p>
+        </div>
+
+        <div class="cells">
+          <a class="cell cell-ink" id="pedir" href="mailto:trombaco.almeida01@gmail.com?subject=Or%C3%A7amento%20de%20site">Quero este site</a>
+          <button class="cell cell-soft" type="button" id="trocar">Trocar as cores</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Work: studies filed as folders -->
+  <section id="estudos" class="work" aria-labelledby="estudos-titulo">
+    <div class="work-head">
+      <h2 id="estudos-titulo" class="h-sec">Estudos de sites</h2>
+      <p class="work-intro">Comecei a faculdade agora, então ainda não tenho clientes para mostrar. Estes são estudos que fiz para negócios imaginários de Londrina, do jeito que eu faria o seu.</p>
+    </div>
+
+    <article class="band b1">
+      <div class="band-strip"><h3 class="tab band-tab">Padaria Pé Vermelho</h3><span class="band-cat">Estudo · cardápio online</span></div>
+      <div class="band-body">
+        <div class="band-pic" data-rise>
+          <div class="shot shot-padaria" data-ui>
+            <div class="shot-bar"><b>Pé Vermelho</b><span>Cardápio · Encomendas · Onde fica</span></div>
+            <div class="shot-hero">
+              <p class="shot-big shot-huge">Pão quente às 6h, na Vila Nova.</p>
+              <p class="shot-note">Fornadas às 6h, 11h e 16h. Encomenda de bolo com um dia de antecedência.</p>
+              <span class="shot-btn">Encomendar pelo WhatsApp</span>
+            </div>
+            <ul class="shot-menu">
+              <li><span>Pão de queijo, 10 un.</span><span>R$ 12,00</span></li>
+              <li><span>Cuca de banana</span><span>R$ 22,00</span></li>
+              <li><span>Broa de milho</span><span>R$ 9,50</span></li>
+              <li><span>Café com leite</span><span>R$ 6,00</span></li>
+            </ul>
+          </div>
+        </div>
+        <div class="band-text" data-rise>
+          <p>Uma padaria de bairro vende mais pelo WhatsApp do que pelo balcão. Esta página mostra o cardápio com preços, avisa a hora em que cada fornada sai e leva a encomenda direto para a conversa. Tudo cabe em uma tela de celular, carrega em menos de dois segundos e o dono atualiza os preços editando uma lista simples.</p>
+          <p class="band-tech">HTML, CSS e JavaScript</p>
+        </div>
+      </div>
+    </article>
+
+    <article class="band b2">
+      <div class="band-strip"><h3 class="tab band-tab">Oficina Igapó</h3><span class="band-cat">Estudo · serviços e agenda</span></div>
+      <div class="band-body">
+        <div class="band-pic" data-rise>
+          <div class="shot shot-oficina" data-ui>
+            <div class="shot-bar"><b>Oficina Igapó</b><span>Serviços · Agendar · Contato</span></div>
+            <div class="shot-split">
+              <div>
+                <p class="shot-big">Revisão completa em um dia.</p>
+                <p class="shot-note">Rua perto do Lago Igapó. Seg a sex, 8h às 18h.</p>
+                <span class="shot-btn">Agendar horário</span>
+              </div>
+              <ul class="shot-slots" aria-label="Horários de exemplo">
+                <li>Seg 8h</li><li class="on">Seg 10h</li><li>Ter 8h</li><li>Ter 14h</li><li>Qua 9h</li><li>Qua 16h</li>
+              </ul>
+            </div>
+            <ul class="shot-menu">
+              <li><span>Troca de óleo e filtro</span><span>a partir de R$ 180</span></li>
+              <li><span>Alinhamento e balanceamento</span><span>R$ 120</span></li>
+              <li><span>Pastilhas de freio</span><span>a partir de R$ 220</span></li>
+              <li><span>Diagnóstico com scanner</span><span>R$ 90</span></li>
+            </ul>
+          </div>
+        </div>
+        <div class="band-text" data-rise>
+          <p>Quem procura oficina no Google quer saber três coisas: o que ela faz, quanto custa e se tem horário. Este estudo responde as três na primeira tela, com uma grade de horários que o cliente toca para pedir a vaga. O pedido chega por mensagem, sem sistema pago e sem cadastro.</p>
+          <p class="band-tech">HTML, CSS e JavaScript</p>
+        </div>
+      </div>
+    </article>
+
+    <article class="band b3">
+      <div class="band-strip"><h3 class="tab band-tab">Cachoeiras de Londrina</h3><span class="band-cat">Projeto pessoal · guia de trilhas</span></div>
+      <div class="band-body">
+        <div class="band-pic" data-rise>
+          <figure class="photo-16x10">
+            <img src="assets/salto-apucaraninha-parana-brasil.jpg" width="1920" height="1280" alt="O Salto do Apucaraninha caindo em duas colunas por um paredão de pedra avermelhada, cercado de mata" loading="lazy" decoding="async">
+          </figure>
+        </div>
+        <div class="band-text" data-rise>
+          <p>Um guia das quedas d’água e trilhas da região, que eu vou montando conforme caminho: distância do centro, tempo de trilha, se tem lugar para banho. Os dados ficam num arquivo que um script em Python organiza e transforma em página. É onde eu treino o que aprendo na faculdade com um assunto de que gosto.</p>
+          <p class="band-tech">Python, HTML e CSS</p>
+        </div>
+      </div>
+    </article>
+
+    <article class="band b4">
+      <div class="band-strip"><h3 class="tab band-tab">Este site</h3><span class="band-cat">Código aberto no GitHub</span></div>
+      <div class="band-body">
+        <div class="band-pic" data-rise>
+          <div class="shot shot-code" data-ui>
+            <div class="shot-bar"><b>script.js</b><span>github.com/MatConta</span></div>
+<pre><code>// O orçamento lá em cima: o nome que você
+// escreve vira a primeira tela do seu site.
+nome.addEventListener('input', () =&gt; {
+  const texto = nome.value.trim() || 'Seu negócio';
+  marca.textContent = texto;
+  titulo.textContent = texto;
+  atualizarPedido();
+});
+
+function atualizarPedido() {
+  const assunto = `Orçamento de site: ${marca.textContent}`;
+  pedir.href = `mailto:${email}?subject=${encodeURIComponent(assunto)}`;
+}</code></pre>
+          </div>
+        </div>
+        <div class="band-text" data-rise>
+          <p>A página que você está lendo foi escrita à mão, sem construtor de sites: HTML, CSS e um pouco de JavaScript para o orçamento lá em cima. Ela está publicada no GitHub Pages, o mesmo caminho que uso para colocar o seu site no ar sem custo de hospedagem. O código é aberto para qualquer um conferir.</p>
+          <p><a class="link" href="https://github.com/MatConta">Ver meu GitHub</a></p>
+        </div>
+      </div>
+    </article>
+  </section>
+
+  <!-- Pricing set like a menu -->
+  <section id="precos" class="prices" aria-labelledby="precos-titulo">
+    <div class="prices-side">
+      <h2 id="precos-titulo" class="h-sec">Preços</h2>
+      <figure class="prices-pic" data-rise>
+        <img src="assets/terra-roxa-sao-paulo-brazil.jpg" width="1920" height="1265" alt="Campo arado de terra roxa, vermelha e úmida, com algumas mudas verdes" loading="lazy" decoding="async">
+        <figcaption>Terra roxa, o chão vermelho do norte do Paraná.</figcaption>
+      </figure>
+    </div>
+    <div class="menu">
+      <div class="menu-group" data-rise>
+        <h3 class="menu-head">Sites, em reais</h3>
+        <ul>
+          <li><div class="row"><span>Página única</span><span>450</span></div><p>Quem você é, o que vende, horários, mapa e WhatsApp.</p></li>
+          <li><div class="row"><span>Cardápio ou catálogo</span><span>600</span></div><p>Lista de produtos com preços que você mesmo atualiza.</p></li>
+          <li><div class="row"><span>Site de até cinco páginas</span><span>900</span></div><p>Para quem tem serviços, equipe e galeria de fotos.</p></li>
+          <li><div class="row"><span>Reforma de site antigo</span><span>350</span></div><p>Deixo o seu site atual legível e rápido no celular.</p></li>
+        </ul>
+      </div>
+      <div class="menu-group" data-rise>
+        <h3 class="menu-head">Extras, em reais</h3>
+        <ul>
+          <li><div class="row"><span>Hospedagem no GitHub Pages</span><span>0</span></div><p>Sem mensalidade. O site fica no ar enquanto você quiser.</p></li>
+          <li><div class="row"><span>Domínio .com.br configurado</span><span>60</span></div><p>Mais a taxa anual do Registro.br, paga em seu nome.</p></li>
+          <li><div class="row"><span>Versão em inglês</span><span>200</span></div><p>Eu mesmo traduzo, para turistas e clientes de fora.</p></li>
+          <li><div class="row"><span>Ajustes depois da entrega</span><span>80/mês</span></div><p>Troca de preços, fotos e horários quando precisar.</p></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- How it works: printed as a slip -->
+  <section id="como" class="how" aria-labelledby="como-titulo">
+    <div class="how-text" data-rise>
+      <h2 id="como-titulo" class="h-sec">Do café ao site no ar</h2>
+      <p>Começa com uma conversa, de preferência num café no centro ou por WhatsApp. Você me conta o que vende e para quem. Em poucos dias eu mostro a primeira tela, e a gente ajusta junto até ficar com a cara do seu negócio.</p>
+    </div>
+    <div class="slip" data-rise>
+      <h3 class="slip-head">Primeira semana</h3>
+      <ul>
+        <li><span>Conversa sobre o seu negócio</span><i aria-hidden="true"></i><span>1 dia</span></li>
+        <li><span>Textos e fotos reunidos</span><i aria-hidden="true"></i><span>2 dias</span></li>
+        <li><span>Rascunho da primeira tela</span><i aria-hidden="true"></i><span>2 dias</span></li>
+      </ul>
+      <h3 class="slip-head">Segunda semana</h3>
+      <ul>
+        <li><span>Ajustes com você</span><i aria-hidden="true"></i><span>2 dias</span></li>
+        <li><span>Páginas completas</span><i aria-hidden="true"></i><span>2 dias</span></li>
+        <li><span>Testes no celular</span><i aria-hidden="true"></i><span>1 dia</span></li>
+      </ul>
+      <h3 class="slip-head">Entrega</h3>
+      <ul>
+        <li><span>Publicação e domínio</span><i aria-hidden="true"></i><span>1 dia</span></li>
+        <li><span>Aula de como editar</span><i aria-hidden="true"></i><span>1 hora</span></li>
+      </ul>
+      <p class="slip-total"><span>Seu site no ar</span><span>cerca de 2 semanas</span></p>
+    </div>
+  </section>
+
+  <!-- About: a letter -->
+  <section id="sobre" class="about" aria-labelledby="sobre-titulo">
+    <figure class="about-plate plate-left" data-rise>
+      <img src="assets/lago-igapo-londrina-cropped.jpg" width="1920" height="877" alt="Prédios de Londrina vistos do outro lado do Lago Igapó, com uma faixa de árvores na margem" loading="lazy" decoding="async">
+      <figcaption>O Lago Igapó, no fim da minha caminhada.</figcaption>
+    </figure>
+
+    <div class="letter" data-rise>
+      <div class="letter-sheet">
+        <img class="letter-face" src="assets/matheus.png" width="640" height="640" alt="Retrato de Matheus Trombaco, de óculos e cabelo cacheado">
+        <h2 id="sobre-titulo" class="h-sec letter-title">Sobre mim</h2>
+        <p>Oi, eu sou o Matheus. Moro em Londrina e acabei de entrar na UniSenai para estudar tecnologia. Meu objetivo é construir uma carreira em engenharia de software, e fazer sites para negócios daqui é o meu jeito de começar com trabalho de verdade.</p>
+        <p>Escrevo HTML, CSS e JavaScript, e uso Python para automatizar tarefas e organizar dados. Falo português e inglês, então também consigo fazer a versão do seu site para quem vem de fora.</p>
+        <p>Fora da tela eu desenho, fotografo, cozinho e vou para a academia. Mas o que mais gosto é caminhar no verde: trilha, <span class="mark">cachoeira</span>, qualquer lugar com uma vista bonita. Muita coisa deste site veio dessas caminhadas.</p>
+        <p>Sou evangélico e a igreja faz parte da minha semana. Levo para o trabalho o que aprendo lá: cumprir o combinado, cobrar o justo e tratar cada cliente como gente, não como número.</p>
+        <p class="sign">Matheus Trombaco</p>
+        <p class="sign-role">Estudante na UniSenai, Londrina</p>
+      </div>
+      <div class="letter-scallops" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+      <div class="letter-stub">
+        <a href="mailto:trombaco.almeida01@gmail.com">trombaco.almeida01@gmail.com</a>
+        <a class="btn btn-ink" href="#contato">Pedir orçamento</a>
+      </div>
+    </div>
+
+    <figure class="about-plate plate-right" data-rise>
+      <img src="assets/cacheira-arthur-thomas.jpg" width="1920" height="1440" alt="Cachoeira estreita descendo entre pedras escuras no meio da mata fechada" loading="lazy" decoding="async">
+      <figcaption>A cachoeira do Parque Arthur Thomas.</figcaption>
+    </figure>
+  </section>
+
+  <!-- Index with preview: places -->
+  <section id="caminhos" class="places" aria-labelledby="caminhos-titulo">
+    <h2 id="caminhos-titulo" class="h-sec">Por onde eu caminho</h2>
+    <div class="places-grid">
+      <ul class="index" id="index">
+        <li><a href="https://pt.wikipedia.org/wiki/Salto_do_Apucaraninha" data-src="assets/salto-apucaraninha.jpg" data-alt="O Salto do Apucaraninha visto de cima, com a água barrenta caindo pelo paredão"><span class="idx-name">Salto do Apucaraninha</span><img class="idx-inline" src="assets/salto-apucaraninha.jpg" width="1920" height="2560" alt="" loading="lazy" decoding="async"></a></li>
+        <li><a href="https://pt.wikipedia.org/wiki/Parque_Estadual_Mata_dos_Godoy" data-src="assets/mata-do-godoy.jpg" data-alt="Estrada sob o portal de madeira da Mata dos Godoy"><span class="idx-name">Mata dos Godoy</span><img class="idx-inline" src="assets/mata-do-godoy.jpg" width="1920" height="1440" alt="" loading="lazy" decoding="async"></a></li>
+        <li><a href="https://pt.wikipedia.org/wiki/Parque_Municipal_Arthur_Thomas" data-src="assets/parque-arthur-thomas.jpg" data-alt="Portão de pedra do Parque Arthur Thomas com a estátua de um tamanduá"><span class="idx-name">Parque Arthur Thomas</span><img class="idx-inline" src="assets/parque-arthur-thomas.jpg" width="1920" height="1440" alt="" loading="lazy" decoding="async"></a></li>
+        <li><a href="https://pt.wikipedia.org/wiki/Lago_Igap%C3%B3" data-src="assets/lago-igapo-londrina-cropped.jpg" data-alt="Lago Igapó com os prédios da Gleba Palhano ao fundo"><span class="idx-name">Lago Igapó</span><img class="idx-inline" src="assets/lago-igapo-londrina-cropped.jpg" width="1920" height="877" alt="" loading="lazy" decoding="async"></a></li>
+      </ul>
+      <figure class="preview" aria-hidden="true">
+        <img id="preview-img" src="assets/salto-apucaraninha.jpg" width="1920" height="2560" alt="" loading="lazy" decoding="async">
+      </figure>
+    </div>
+  </section>
+
+  <!-- Faith -->
+  <section id="fe" class="faith" aria-labelledby="fe-titulo">
+    <figure class="faith-pic">
+      <img src="assets/mata-do-godoy.jpg" width="1920" height="1440" alt="Estrada de asfalto avermelhado passando sob o portal de madeira da Mata dos Godoy" loading="lazy" decoding="async">
+    </figure>
+    <div class="faith-text">
+      <h2 id="fe-titulo" class="h-sec">O caminho</h2>
+      <blockquote class="verse">
+        <p>“Eu sou o caminho, a verdade e a vida. Ninguém vem ao Pai a não ser por mim.”</p>
+        <cite>João 14:6</cite>
+      </blockquote>
+      <p>Esse é o versículo que me acompanha. Gosto de trilhas porque elas lembram que um caminho se faz andando, um passo de cada vez. É assim que estou construindo a minha carreira.</p>
+    </div>
+  </section>
+
+  <!-- Contact coupon -->
+  <section id="contato" class="contact" aria-labelledby="contato-titulo">
+    <form class="coupon" id="coupon" action="mailto:trombaco.almeida01@gmail.com" method="post" enctype="text/plain">
+      <div class="coupon-left">
+        <h2 id="contato-titulo" class="coupon-title">Vamos fazer o seu site?</h2>
+        <p>Preencha e o seu e-mail abre com tudo escrito. Respondo em até um dia.</p>
+      </div>
+      <div class="coupon-right">
+        <label class="sr" for="c-nome">Seu nome</label>
+        <input id="c-nome" name="nome" type="text" placeholder="Seu nome" autocomplete="name" required>
+        <label class="sr" for="c-negocio">Nome do negócio</label>
+        <input id="c-negocio" name="negocio" type="text" placeholder="Nome do negócio" autocomplete="organization">
+        <label class="sr" for="c-zap">WhatsApp</label>
+        <input id="c-zap" name="whatsapp" type="tel" placeholder="WhatsApp com DDD" autocomplete="tel">
+        <label class="sr" for="c-msg">O que você precisa</label>
+        <input id="c-msg" name="mensagem" type="text" placeholder="O que você precisa">
+        <button class="coupon-submit" type="submit">Enviar pedido</button>
+      </div>
+      <span class="notch notch-top" aria-hidden="true"></span>
+      <span class="notch notch-bottom" aria-hidden="true"></span>
+    </form>
+  </section>
+</main>
+
+<footer class="postcard-wrap">
+  <div class="scallops" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+  <div class="postcard">
+    <div class="pc-left">
+      <p class="pc-sign">Até breve, Londrina</p>
+      <p>Se o seu negócio ainda não tem site, ou tem um que não abre direito no celular, me chama. A primeira conversa não custa nada.</p>
+    </div>
+    <div class="pc-right">
+      <img class="stamp" src="assets/salto-apucaraninha.jpg" width="1920" height="2560" alt="Selo com a foto do Salto do Apucaraninha" loading="lazy" decoding="async">
+      <ul class="address">
+        <li><a href="mailto:trombaco.almeida01@gmail.com">trombaco.almeida01@gmail.com</a></li>
+        <li><a href="https://github.com/MatConta">github.com/MatConta</a></li>
+        <li>Londrina, Paraná</li>
+        <li>Português e inglês</li>
+      </ul>
+    </div>
+    <p class="pc-name" aria-hidden="true">Matheus Trombaco</p>
+    <p class="credits">Fotos: <a href="https://commons.wikimedia.org/wiki/File:Lago_Igap%C3%B3_Londrina_(cropped).jpg">Lago Igapó</a>, Vinícius E. M., <a href="https://creativecommons.org/licenses/by/2.0">CC BY 2.0</a>; <a href="https://commons.wikimedia.org/wiki/File:Mata_do_Godoy.JPG">Mata do Godoy</a>, <a href="https://commons.wikimedia.org/wiki/File:Salto_Apucaraninha.JPG">Salto Apucaraninha</a>, <a href="https://commons.wikimedia.org/wiki/File:Cacheira_Arthur_Thomas.JPG">Cachoeira Arthur Thomas</a> e <a href="https://commons.wikimedia.org/wiki/File:Parque_Arthur_Thomas.JPG">Parque Arthur Thomas</a>, Marcos Guerra, domínio público; <a href="https://commons.wikimedia.org/wiki/File:Salto_Apucaraninha,_Paran%C3%A1,_Brasil.jpg">Salto Apucaraninha, Paraná</a>, Alessandro Palabeve, domínio público; <a href="https://commons.wikimedia.org/wiki/File:Terra_roxa_(Sao_Paulo,_Brazil).jpg">Terra roxa</a>, Roundabout, CC0. Todas via Wikimedia Commons.</p>
+    <p class="imprint">© 2026 Matheus Trombaco. Feito à mão em Londrina.</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
